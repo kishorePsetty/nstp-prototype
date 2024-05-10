@@ -1,0 +1,204 @@
+.login-form {
+    /* margin: 10%;
+                    padding: 10%; */
+    width: 50%;
+    margin: 10px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.image {
+    /* background-color: #0066cc; */
+    width: 50%;
+    margin-right: 20px;
+}
+
+.pl-image {
+    height: 300px;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+}
+
+.login-form input,
+.login-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-form .link {
+    text-align: right;
+    font-size: 14px;
+    text-decoration: none;
+    color: #0066cc;
+    cursor: pointer;
+}
+
+.link-container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.login-form .link:hover {
+    text-decoration: underline;
+}
+
+.login-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #dd2027;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-form button:hover {
+    background-color: #45a049;
+}
+
+/* Bordered form */
+form {
+    border: 3px solid #f1f1f1;
+}
+
+/* Full-width inputs */
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: blue;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 1px solid green;
+    border-radius: 24px;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+/* Add padding to containers */
+.container {
+    padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+
+    .cancelbtn {
+        width: 100%;
+    }
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover,
+.dropbtn:focus {
+    background-color: #2980B9;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {
+    display: block;
+}
+
+.list-container {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 20px;
+}
+
+.row-container {
+    margin-right: 12px;
+}
