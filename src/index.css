@@ -11,3 +11,72 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.card-title {
+  color: #0f141a;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: capitalize;
+}
+
+.details-card-container {
+  height: auto;
+  padding: 12px;
+  background-color: #fff;
+  box-shadow: 0px 5px 16px 0px rgba(165, 172, 177, 0.24);
+  border-radius: 6px;
+  margin: 16px 0px;
+}
+
+.detail-container {
+  width: fit-content;
+  height: auto;
+  margin-right: 12px;
+}
+
+.detail-title {
+  color: #252c32;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.detail-value {
+  color: #0073bb;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.underwriting-page-bg {
+  background-color: #f6f8fa;
+  padding: 8px 32px;
+  height: 100vh;
+}
+
+.divider-line {
+  height: 1.5px;
+  background-color: lightgray;
+  width: 100%;
+  margin: 4px 0px;
+}
+
+.horizontal-flex-details {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 4px;
+}
+
+.align-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.space-between {
+  justify-content: space-between;
+}

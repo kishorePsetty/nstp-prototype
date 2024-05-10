@@ -5,12 +5,14 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Login from './Pages/Login.page';
 import UnderWritingList from './Pages/UnderwritingsList.page';
+import UnderwritingDetailsPage from './Pages/UnderwritingDetails.page';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
-    <UnderWritingList />
+    {/* <UnderWritingList /> */}
+    <UnderwritingDetailsPage />
   </React.StrictMode>
 );
 
